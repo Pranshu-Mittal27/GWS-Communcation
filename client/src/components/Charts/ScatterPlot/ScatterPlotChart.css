@@ -1,0 +1,11 @@
+.y-axis-grid,.x-axis-grid{
+	color: #ccc;
+}
+
+.x-quadrant-labels{
+	color: #ccc;
+}
+
+.x-quadrant-labels .tick text{
+	color: #969696;
+}

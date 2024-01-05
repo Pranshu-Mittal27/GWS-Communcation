@@ -1,0 +1,49 @@
+.mui-toggle-filter-button{
+	color: #000 !important;
+}
+
+.mui-toggle-filter-button:active,.mui-toggle-filter-button:focus{
+	outline: none !important;
+}
+
+.InovuaReactDataGrid{
+	background-color: #fff !important;
+	border-left: none !important;
+	border-right: none !important;
+	/* text-align: center !important; */
+	height: 100% !important;
+}
+
+.InovuaReactDataGrid *{
+	border-color: rgb(220, 225, 254);
+}
+
+.InovuaReactDataGrid__column-header{
+	background-color: #fff !important;
+	border-right: none !important;
+	border-left: none !important;
+	/* text-align: center !important;
+	padding-left: 25px !important; */
+}
+
+.InovuaReactDataGrid__column-header__cell{
+	background-color: #fff !important;
+	border-right: none !important;
+	border-left: none !important;
+}
+
+.InovuaReactDataGrid__column-header__resize-wrapper{
+	border: none!important;
+}
+
+.InovuaReactDataGrid__column-header__filter-wrapper{
+	background-color: #fff !important;
+}
+
+.InovuaReactDataGrid__column-header__filter{
+	background-color: #fff !important;
+}
+
+.InovuaReactDataGrid__row{
+	background-color: #fff !important;
+}

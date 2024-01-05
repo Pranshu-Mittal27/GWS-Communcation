@@ -1,0 +1,8 @@
+.y.axis-grid .tick:not(:last-of-type){
+	stroke-dasharray: 2 3;
+	stroke-width: 0.5;
+}
+
+.y.axis-grid,.x.axis-grid{
+	color: #ccc;
+}

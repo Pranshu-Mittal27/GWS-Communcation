@@ -1,0 +1,11 @@
+.layout-wrapper, .layout-container {
+    height: 100vh;
+    padding: 0px;
+}
+
+.layout-page {
+    display: grid;
+    gap: 0;
+    grid-template-rows: min-content auto;
+}
+

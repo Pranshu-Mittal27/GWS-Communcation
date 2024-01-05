@@ -1,0 +1,58 @@
+.container.dark {
+    background: #242424;
+}
+
+.container.light {
+    background: #f7f7f7;
+}
+
+.mode-toggle {
+    gap: 12px;
+    width: 100px;
+    padding: 5px;
+    background: #d3d3d3;
+    border-radius: 50px;
+    border: 1px solid #bababa;
+}
+
+.mode-toggle .mode {
+    position: relative;
+    line-height: 0;
+    cursor: pointer;
+}
+
+/* .active {
+    border: 2px solid red;
+} */
+
+.mode-toggle .mode svg {
+    width: 100%;
+}
+
+.mode-icon {
+    background-color: transparent;
+}
+
+.mode-toggle .mode.mode-light .mode-icon,
+.mode-toggle .mode.mode-auto .mode-icon,
+.mode-toggle .mode.mode-dark .mode-icon {
+    display: inline-block;
+}
+
+.mode-toggle .mode.mode-light .mode-icon svg *,
+.mode-toggle .mode.mode-auto .mode-icon svg *,
+.mode-toggle .mode.mode-dark .mode-icon svg * {
+    fill: #b5b5b5;
+    transition: all 0.2s ease-in;
+}
+
+.mode-toggle .mode.mode-light .mode-input:checked+.mode-icon svg *,
+.mode-toggle .mode.mode-auto .mode-input:checked+.mode-icon svg *,
+.mode-toggle .mode.mode-dark .mode-input:checked+.mode-icon svg * {
+    fill: #242424;
+}
+
+.mode-toggle .mode-input {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}

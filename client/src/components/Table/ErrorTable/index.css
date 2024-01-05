@@ -1,0 +1,17 @@
+.last-20-calls-grid{
+	border: none;
+	border-top: 1px solid #e0e0e0;
+	/* border-bottom: 1px solid #e0e0e0; */
+}
+
+.last-20-calls-grid .InovuaReactDataGrid__sort-icon-wrapper{
+	display: none !important;
+}
+
+.last-20-calls-grid *{
+	color: #2B3467 !important;
+}
+.InovuaReactDataGrid__cell .InovuaReactDataGrid__cell__content{
+	display: flex;
+	justify-content: center;
+}

@@ -1,0 +1,70 @@
+.topbar {
+    background: rgba(0, 0, 0, 0.75);
+    grid-area: topbar;
+}
+
+.topbar input {
+    border-radius: 3px;
+    border: 1px solid #333;
+    padding: 0 10px;
+}
+
+.topbar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.topbar ul li {
+    display: inline-block;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.95);
+    padding: 0 10px;
+}
+
+.topbar ul li:nth-child(2) {
+    padding-left: 30px;
+}
+
+.topbar li.close-icons span:first-child:before {
+    width: 12px;
+    height: 12px;
+    content: "";
+    background: #FF6058;
+    position: absolute;
+    top: 20px;
+    border-radius: 12px;
+    left: 10px;
+}
+
+.topbar li.close-icons span:last-child:before {
+    width: 12px;
+    height: 12px;
+    content: "";
+    background: #29C941;
+    position: absolute;
+    top: 20px;
+    border-radius: 12px;
+    left: 50px;
+}
+
+.topbar li.close-icons span:nth-child(2):before {
+    width: 12px;
+    height: 12px;
+    content: "";
+    background: #FFBD2E;
+    position: absolute;
+    top: 20px;
+    border-radius: 12px;
+    left: 30px;
+}
+
+.right-icons {
+    float: right;
+}
+
+.right-icons > span:nth-child(2) {
+    margin-left: 20px;
+}
